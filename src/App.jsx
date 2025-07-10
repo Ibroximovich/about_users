@@ -117,11 +117,11 @@ function UpdateFn(ind,id){
     <>
     <h2 className="text-[45px] md:text-[50px] text-center text-white mt-[20px]">Information about users</h2>
     <div className="flex flex-col mt-[50px] gap-[20px] text-center">
-      <div className="flex justify-between items-center gap-[10px] md:gap-[20px] px-[20px] xl:px-[100px]">
-        <input onInput={fn} className="  p-2 outline-none rounded-md text-white border-[1px] border-white w-[250px] md:w-[300px] placeholder:text-white" type="text" placeholder="Search name" name="name" autoComplete="off" />
-        <img onClick={sortCorrect} src={Logo1} alt="logo" width={30} height={30} />
-        <img  onClick={sortReverse} src={Logo2} alt="logo" width={30} height={30} />
-        <button onClick={CreateFn} className="py-2 max-w-[150px] md:w-[200px] text-[14px] md:text-[20px] font-semibold bg-green-800 text-white rounded-md ">Create</button>
+      <div className="flex justify-between items-center gap-[6px] md:gap-[20px] pl-[10px] pr-[20px] xl:px-[100px]">
+        <input onInput={fn} className="  p-2 outline-none rounded-md text-white border-[1px] border-white w-[200px] md:w-[300px] placeholder:text-white" type="text" placeholder="Search name" name="name" autoComplete="off" />
+        <img className="md:w-[30px] md:h-[30px]" onClick={sortCorrect} src={Logo1} alt="logo" width={20} height={20} />
+        <img  className="md:w-[30px] md:h-[30px]" onClick={sortReverse} src={Logo2} alt="logo" width={20} height={20} />
+        <button onClick={CreateFn} className="py-2 w-[150px] md:w-[200px] text-[14px] md:text-[20px] font-semibold bg-green-800 text-white rounded-md ">Create</button>
       </div>
       <div className="flex justify-between pr-[60px] md:pr-[100px]">
         <strong className="block w-[100px] mx-auto text-center text-[16px] md:text-[20px] text-white font-semibold">Ism</strong>
