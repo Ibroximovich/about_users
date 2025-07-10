@@ -119,8 +119,8 @@ function UpdateFn(ind,id){
     <div className="flex flex-col mt-[50px] gap-[20px] text-center">
       <div className="flex justify-between items-center gap-[6px] md:gap-[20px] pl-[10px] pr-[20px] xl:px-[100px]">
         <input onInput={fn} className="  p-2 outline-none rounded-md text-white border-[1px] border-white w-[200px] md:w-[300px] placeholder:text-white" type="text" placeholder="Search name" name="name" autoComplete="off" />
-        <img className="md:w-[30px] md:h-[30px]" onClick={sortCorrect} src={Logo1} alt="logo" width={20} height={20} />
-        <img  className="md:w-[30px] md:h-[30px]" onClick={sortReverse} src={Logo2} alt="logo" width={20} height={20} />
+        <img className="md:w-[30px] md:h-[30px]" onClick={sortCorrect} src={Logo1} alt="logo" width={25} height={25} />
+        <img  className="md:w-[30px] md:h-[30px]" onClick={sortReverse} src={Logo2} alt="logo" width={25} height={25} />
         <button onClick={CreateFn} className="py-2 w-[150px] md:w-[200px] text-[14px] md:text-[20px] font-semibold bg-green-800 text-white rounded-md ">Create</button>
       </div>
       <div className="flex justify-between pr-[60px] md:pr-[100px]">
